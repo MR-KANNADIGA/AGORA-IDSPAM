@@ -1,146 +1,146 @@
 {
   "name": "SPAM BOT",
-  "description": "A smoothest and fastet spam bot made By @LegendBoy_XD.",
+  "description": "A smoothest and fastet spam bot made By @Agora_Robots and @Mr_Agora.",
   "logo": "",
     "env": {
       "STRING": {
-        "description": "Telethon String Session",
+        "description": "Telethon String Session by @Agora_ssgenbot",
         "value": "",
         "required": true
       },
       "STRING2": {
-        "description": "Telethon String Session",
+        "description": "Telethon String Session by @Agora_ssgenbot",
         "value": "",
         "required": false
       },
       "STRING3": {
-        "description": "Telethon String Session",
+        "description": "Telethon String Session by @Agora_ssgenbot",
         "value": "",
         "required": false
       },
       "STRING4": {
-        "description": "Telethon String Session",
+        "description": "Telethon String Session by @Agora_ssgenbot",
         "value": "",
         "required": false
       },
       "STRING5": {
-        "description": "Telethon String Session",
+        "description": "Telethon String Session by @Agora_ssgenbot",
         "value": "",
         "required": false
       },
       "STRING6": {
-        "description": "Telethon String Session",
+        "description": "Telethon String Session by @Agora_ssgenbot",
         "value": "",
         "required": false
       },
       "STRING7": {
-        "description": "Telethon String Session",
+        "description": "Telethon String Session by @Agora_ssgenbot",
         "value": "",
         "required": false
       },
       "STRING8": {
-        "description": "Telethon String Session",
+        "description": "Telethon String Session by @Agora_ssgenbot",
         "value": "",
         "required": false
       },
       "STRING9": {
-        "description": "Telethon String Session",
+        "description": "Telethon String Session by @Agora_ssgenbot",
         "value": "",
         "required": false
       },
       "STRING10": {
-        "description": "Telethon String Session",
+        "description": "Telethon String Session by @Agora_ssgenbot",
         "value": "",
         "required": false
       },
       "STRING11": {
-        "description": "Telethon String Session",
+        "description": "Telethon String Session by @Agora_ssgenbot",
         "value": "",
         "required": false
       },
       "STRING12": {
-        "description": "Telethon String Session",
+        "description": "Telethon String Session by @Agora_ssgenbot",
         "value": "",
         "required": false
       },
       "STRING13": {
-        "description": "Telethon String Session",
+        "description": "Telethon String Session by @Agora_ssgenbot",
         "value": "",
         "required": false
       },
       "STRING14": {
-        "description": "Telethon String Session",
+        "description": "Telethon String Session by @Agora_ssgenbot",
         "value": "",
         "required": false
       },
       "STRING15": {
-        "description": "Telethon String Session",
+        "description": "Telethon String Session by @Agora_ssgenbot",
         "value": "",
         "required": false
       },
       "STRING16": {
-        "description": "Telethon String Session",
+        "description": "Telethon String Session by @Agora_ssgenbot",
         "value": "",
         "required": false
       },
       "STRING17": {
-        "description": "Telethon String Session",
+        "description": "Telethon String Session by @Agora_ssgenbot",
         "value": "",
         "required": false
       },
       "STRING18": {
-        "description": "Telethon String Session",
+        "description": "Telethon String Session by @Agora_ssgenbot",
         "value": "",
         "required": false
       },
       "STRING19": {
-        "description": "Telethon String Session",
+        "description": "Telethon String Session by @Agora_ssgenbot",
         "value": "",
         "required": false
       },
       "STRING20": {
-        "description": "Telethon String Session",
+        "description": "Telethon String Session by @Agora_ssgenbot",
         "value": "",
         "required": false
       },
       "STRING21": {
-        "description": "Telethon String Session",
+        "description": "Telethon String Session by @Agora_ssgenbot",
         "value": "",
         "required": false
       },
       "STRING22": {
-        "description": "Telethon String Session",
+        "description": "Telethon String Session by @Agora_ssgenbot",
         "value": "",
         "required": false
       },
       "STRING23": {
-        "description": "Telethon String Session",
+        "description": "Telethon String Session by @Agora_ssgenbot",
         "value": "",
         "required": false
       },
       "STRING24": {
-        "description": "Telethon String Session",
+        "description": "Telethon String Session by @Agora_ssgenbot",
         "value": "",
         "required": false
       },
       "STRING25": {
-        "description": "Telethon String Session",
+        "description": "Telethon String Session by @Agora_ssgenbot",
         "value": "",
         "required": false
       },
       "API_ID": {
-        "description": "Telethon String Session",
+        "description": "my.telegram.org/auth",
         "value": "",
         "required": true
       },
       "API_HASH": {
-        "description": "Api Hash",
+        "description": "my.telegram.org/auth",
         "value": "",
         "required": true
       },
       "GROUP_USERNAME": {
         "description": "In Which Group U Want to Add This All Id In Any Group",
-        "value": "@LB_OFFTOPIC",
+        "value": "@Agora_Robots",
         "required": true
       },
       "SUDO": {
