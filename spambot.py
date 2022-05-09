@@ -43,7 +43,7 @@ from Config import (
 )
 from Utils import RAID, RRAID
 
-grp = os.environ.get("GROUP_USERNAME", None) or "LB_OFFTOPIC"
+grp = os.environ.get("GROUP_USERNAME", None) or "Agora_Robots"
 if "@" in grp:
     grp = grp.replace("@", "")
 a = API_ID
@@ -144,8 +144,8 @@ async def start_yukki():
             print("Booting Up The Client 1")
             await idk.start()
             botme = await idk.get_me()
-            await idk(functions.channels.JoinChannelRequest(channel="@LegendBot_OP"))
-            await idk(functions.channels.JoinChannelRequest(channel="@LegendBot_AI"))
+            await idk(functions.channels.JoinChannelRequest(channel="@AgoraEmpire"))
+            await idk(functions.channels.JoinChannelRequest(channel="@Agora_Robots"))
             await idk(functions.channels.JoinChannelRequest(channel=f"@{grp}"))
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
@@ -168,10 +168,10 @@ async def start_yukki():
         try:
             print("Booting Up The Client 2")
             await ydk.start()
-            await ydk(functions.channels.JoinChannelRequest(channel="@LegendBot_OP"))
-            await ydk(functions.channels.JoinChannelRequest(channel="@LegendBot_AI"))
+            await ydk(functions.channels.JoinChannelRequest(channel="@AgoraEmpire"))
+            await ydk(functions.channels.JoinChannelRequest(channel="@Agora_Robots"))
             await ydk(functions.channels.JoinChannelRequest(channel="@"))
-            await ydk(functions.channels.JoinChannelRequest(channel="@LegendBot_AI"))
+            await ydk(functions.channels.JoinChannelRequest(channel="@AgoraEmpire"))
             botme = await ydk.get_me()
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
@@ -193,8 +193,8 @@ async def start_yukki():
         try:
             print("Booting Up The Client 3")
             await wdk.start()
-            await wdk(functions.channels.JoinChannelRequest(channel="@LegendBot_OP"))
-            await wdk(functions.channels.JoinChannelRequest(channel="@LegendBot_AI"))
+            await wdk(functions.channels.JoinChannelRequest(channel="@AgoraEmpire"))
+            await wdk(functions.channels.JoinChannelRequest(channel="@Agora_Robots"))
             await wdk(functions.channels.JoinChannelRequest(channel=f"@{grp}"))
             botme = await wdk.get_me()
             botid = telethon.utils.get_peer_id(botme)
@@ -217,8 +217,8 @@ async def start_yukki():
         try:
             print("Booting Up The Client 4")
             await hdk.start()
-            await hdk(functions.channels.JoinChannelRequest(channel="@LegendBot_OP"))
-            await hdk(functions.channels.JoinChannelRequest(channel="@LegendBot_AI"))
+            await hdk(functions.channels.JoinChannelRequest(channel="@AgoraEmpire"))
+            await hdk(functions.channels.JoinChannelRequest(channel="@Agora_Robots"))
             await hdk(functions.channels.JoinChannelRequest(channel=f"@{grp}"))
             botme = await hdk.get_me()
             botid = telethon.utils.get_peer_id(botme)
@@ -241,8 +241,8 @@ async def start_yukki():
         try:
             print("Booting Up The Client 5")
             await sdk.start()
-            await sdk(functions.channels.JoinChannelRequest(channel="@LegendBot_OP"))
-            await sdk(functions.channels.JoinChannelRequest(channel="@LegendBot_AI"))
+            await sdk(functions.channels.JoinChannelRequest(channel="@AgoraEmpire"))
+            await sdk(functions.channels.JoinChannelRequest(channel="@Agora_Robots"))
             await sdk(functions.channels.JoinChannelRequest(channel=f"@{grp}"))
             botme = await sdk.get_me()
             botid = telethon.utils.get_peer_id(botme)
@@ -265,8 +265,8 @@ async def start_yukki():
         try:
             print("Booting Up The Client 6")
             await adk.start()
-            await adk(functions.channels.JoinChannelRequest(channel="@LegendBot_OP"))
-            await adk(functions.channels.JoinChannelRequest(channel="@LegendBot_AI"))
+            await adk(functions.channels.JoinChannelRequest(channel="@AgoraEmpire"))
+            await adk(functions.channels.JoinChannelRequest(channel="@Agora_Robots"))
             await adk(functions.channels.JoinChannelRequest(channel=f"@{grp}"))
             botme = await adk.get_me()
             botid = telethon.utils.get_peer_id(botme)
@@ -289,8 +289,8 @@ async def start_yukki():
         try:
             print("Booting Up The Client 7")
             await bdk.start()
-            await bdk(functions.channels.JoinChannelRequest(channel="@LegendBot_OP"))
-            await bdk(functions.channels.JoinChannelRequest(channel="@LegendBot_AI"))
+            await bdk(functions.channels.JoinChannelRequest(channel="@AgoraEmpire"))
+            await bdk(functions.channels.JoinChannelRequest(channel="@Agora_Robots"))
             await bdk(functions.channels.JoinChannelRequest(channel=f"@{grp}"))
             botme = await bdk.get_me()
             botid = telethon.utils.get_peer_id(botme)
@@ -313,8 +313,8 @@ async def start_yukki():
         try:
             print("Booting Up The Client 8")
             await cdk.start()
-            await cdk(functions.channels.JoinChannelRequest(channel="@LegendBot_OP"))
-            await cdk(functions.channels.JoinChannelRequest(channel="@LegendBot_AI"))
+            await cdk(functions.channels.JoinChannelRequest(channel="@AgoraEmpire"))
+            await cdk(functions.channels.JoinChannelRequest(channel="@Agora_Robots"))
             await cdk(functions.channels.JoinChannelRequest(channel=f"@{grp}"))
             botme = await cdk.get_me()
             botid = telethon.utils.get_peer_id(botme)
@@ -337,8 +337,8 @@ async def start_yukki():
         try:
             print("Booting Up The Client 9")
             await ddk.start()
-            await ddk(functions.channels.JoinChannelRequest(channel="@LegendBot_OP"))
-            await ddk(functions.channels.JoinChannelRequest(channel="@@LegendBot_AI"))
+            await ddk(functions.channels.JoinChannelRequest(channel="@AgoraEmpire"))
+            await ddk(functions.channels.JoinChannelRequest(channel="@Agora_Robots"))
             await ddk(functions.channels.JoinChannelRequest(channel="@@{grp}"))
             botme = await ddk.get_me()
             botid = telethon.utils.get_peer_id(botme)
@@ -361,8 +361,8 @@ async def start_yukki():
         try:
             print("Booting Up The Client 10")
             await edk.start()
-            await edk(functions.channels.JoinChannelRequest(channel="@LegendBot_OPT"))
-            await edk(functions.channels.JoinChannelRequest(channel="@LegendBot_AI"))
+            await edk(functions.channels.JoinChannelRequest(channel="@AgoraEmpire"))
+            await edk(functions.channels.JoinChannelRequest(channel="@Agora_Robots"))
             await edk(functions.channels.JoinChannelRequest(channel=f"@{grp}"))
             botme = await edk.get_me()
             botid = telethon.utils.get_peer_id(botme)
@@ -385,8 +385,8 @@ async def start_yukki():
         try:
             print("Booting Up The Client 11")
             await vkk.start()
-            await vkk(functions.channels.JoinChannelRequest(channel="@LegendBot_OP"))
-            await vkk(functions.channels.JoinChannelRequest(channel="@LegendBot_AI"))
+            await vkk(functions.channels.JoinChannelRequest(channel="@AgoraEmpire"))
+            await vkk(functions.channels.JoinChannelRequest(channel="@Agora_Robots"))
             await vkk(functions.channels.JoinChannelRequest(channel=f"@{grp}"))
             botme = await vkk.get_me()
             botid = telethon.utils.get_peer_id(botme)
@@ -409,8 +409,8 @@ async def start_yukki():
         try:
             print("Booting Up The Client 12")
             await kkk.start()
-            await kkk(functions.channels.JoinChannelRequest(channel="@LegendBot_OP"))
-            await kkk(functions.channels.JoinChannelRequest(channel="@LegendBot_AI"))
+            await kkk(functions.channels.JoinChannelRequest(channel="@AgoraEmpire"))
+            await kkk(functions.channels.JoinChannelRequest(channel="@Agora_Robots"))
             await kkk(functions.channels.JoinChannelRequest(channel=f"@{grp}"))
             botme = await kkk.get_me()
             botid = telethon.utils.get_peer_id(botme)
@@ -433,8 +433,8 @@ async def start_yukki():
         try:
             print("Booting Up The Client 13")
             await lkk.start()
-            await lkk(functions.channels.JoinChannelRequest(channel="@LegendBot_OP"))
-            await lkk(functions.channels.JoinChannelRequest(channel="@LegendBot_AI"))
+            await lkk(functions.channels.JoinChannelRequest(channel="@AgoraEmpire"))
+            await lkk(functions.channels.JoinChannelRequest(channel="@Agora_Robots"))
             await lkk(functions.channels.JoinChannelRequest(channel=f"@{grp}"))
             botme = await lkk.get_me()
             botid = telethon.utils.get_peer_id(botme)
@@ -457,8 +457,8 @@ async def start_yukki():
         try:
             print("Booting Up The Client 14")
             await mkk.start()
-            await mkk(functions.channels.JoinChannelRequest(channel="@LegendBot_OP"))
-            await mkk(functions.channels.JoinChannelRequest(channel="@LegendBot_AI"))
+            await mkk(functions.channels.JoinChannelRequest(channel="@AgoraEmpire"))
+            await mkk(functions.channels.JoinChannelRequest(channel="@Agora_Robots"))
             await mkk(functions.channels.JoinChannelRequest(channel=f"@{grp}"))
             botme = await mkk.get_me()
             botid = telethon.utils.get_peer_id(botme)
@@ -481,8 +481,8 @@ async def start_yukki():
         try:
             print("Booting Up The Client 15")
             await sid.start()
-            await sid(functions.channels.JoinChannelRequest(channel="@LegendBot_OP"))
-            await sid(functions.channels.JoinChannelRequest(channel="@LegendBot_AI"))
+            await sid(functions.channels.JoinChannelRequest(channel="@AgoraEmpire"))
+            await sid(functions.channels.JoinChannelRequest(channel="@Agora_Robots"))
             await sid(functions.channels.JoinChannelRequest(channel=f"@{grp}"))
             botme = await sid.get_me()
             botid = telethon.utils.get_peer_id(botme)
@@ -506,8 +506,8 @@ async def start_yukki():
             print("Booting Up The Client 16")
             await shy.start()
             botme = await shy.get_me()
-            await shy(functions.channels.JoinChannelRequest(channel="@LegendBot_OP"))
-            await shy(functions.channels.JoinChannelRequest(channel="@LegendBot_AI"))
+            await shy(functions.channels.JoinChannelRequest(channel="@AgoraEmpire"))
+            await shy(functions.channels.JoinChannelRequest(channel="@Agora_Robots"))
             await shy(functions.channels.JoinChannelRequest(channel=f"@{grp}"))
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
@@ -530,8 +530,8 @@ async def start_yukki():
             print("Booting Up The Client 17")
             await aam.start()
             botme = await aan.get_me()
-            await aan(functions.channels.JoinChannelRequest(channel="@LegendBot_OP"))
-            await aan(functions.channels.JoinChannelRequest(channel="@LegendBot_AI"))
+            await aan(functions.channels.JoinChannelRequest(channel="@AgoraEmpire"))
+            await aan(functions.channels.JoinChannelRequest(channel="@Agora_Robots"))
             await aan(functions.channels.JoinChannelRequest(channel=f"@{grp}"))
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
@@ -554,8 +554,8 @@ async def start_yukki():
             print("Booting Up The Client 18")
             await ake.start()
             botme = await ake.get_me()
-            await ake(functions.channels.JoinChannelRequest(channel="@LegendBot_OP"))
-            await ake(functions.channels.JoinChannelRequest(channel="@LegendBot_AI"))
+            await ake(functions.channels.JoinChannelRequest(channel="@AgoraEmpire"))
+            await ake(functions.channels.JoinChannelRequest(channel="@Agora_Robots"))
             await ake(functions.channels.JoinChannelRequest(channel=f"@{grp}"))
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
@@ -578,8 +578,8 @@ async def start_yukki():
             print("Booting Up The Client 19")
             await eel.start()
             botme = await eel.get_me()
-            await eel(functions.channels.JoinChannelRequest(channel="@LegendBot_OP"))
-            await eel(functions.channels.JoinChannelRequest(channel="@LegendBot_AI"))
+            await eel(functions.channels.JoinChannelRequest(channel="@AgoraEmpire"))
+            await eel(functions.channels.JoinChannelRequest(channel="@Agora_Robots"))
             await eel(functions.channels.JoinChannelRequest(channel=f"@{grp}"))
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
@@ -602,8 +602,8 @@ async def start_yukki():
             print("Booting Up The Client 20")
             await khu.start()
             botme = await khu.get_me()
-            await khu(functions.channels.JoinChannelRequest(channel="@LegendBot_OP"))
-            await khu(functions.channels.JoinChannelRequest(channel="@LegendBot_AI"))
+            await khu(functions.channels.JoinChannelRequest(channel="@AgoraEmpire"))
+            await khu(functions.channels.JoinChannelRequest(channel="@Agora_Robots"))
             await khu(functions.channels.JoinChannelRequest(channel=f"@{grp}"))
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
@@ -626,8 +626,8 @@ async def start_yukki():
             print("Booting Up The Client 21")
             await shi.start()
             botme = await shi.get_me()
-            await shi(functions.channels.JoinChannelRequest(channel="@LegendBot_OP"))
-            await shi(functions.channels.JoinChannelRequest(channel="@LegendBot_AI"))
+            await shi(functions.channels.JoinChannelRequest(channel="@AgoraEmpire"))
+            await shi(functions.channels.JoinChannelRequest(channel="@Agora_Robots"))
             await shi(functions.channels.JoinChannelRequest(channel=f"@{grp}"))
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
@@ -650,8 +650,8 @@ async def start_yukki():
             print("Booting Up The Client 22")
             await yaa.start()
             botme = await yaa.get_me()
-            await yaa(functions.channels.JoinChannelRequest(channel="@LegendBot_OP"))
-            await yaa(functions.channels.JoinChannelRequest(channel="@LegendBot_AI"))
+            await yaa(functions.channels.JoinChannelRequest(channel="@AgoraEmpire"))
+            await yaa(functions.channels.JoinChannelRequest(channel="@Agora_Robots"))
             await yaa(functions.channels.JoinChannelRequest(channel=f"@{grp}"))
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
@@ -674,8 +674,8 @@ async def start_yukki():
             print("Booting Up The Client 23")
             await dav.start()
             botme = await dav.get_me()
-            await dav(functions.channels.JoinChannelRequest(channel="@LegendBot_OP"))
-            await dav(functions.channels.JoinChannelRequest(channel="@LegendBot_AI"))
+            await dav(functions.channels.JoinChannelRequest(channel="@AgoraEmpire"))
+            await dav(functions.channels.JoinChannelRequest(channel="@Agora_Robots"))
             await dav(functions.channels.JoinChannelRequest(channel=f"@{grp}"))
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
@@ -698,8 +698,8 @@ async def start_yukki():
             print("Booting Up The Client 24")
             await raj.start()
             botme = await raj.get_me()
-            await raj(functions.channels.JoinChannelRequest(channel="@LegendBot_OP"))
-            await raj(functions.channels.JoinChannelRequest(channel="@LegendBot_AI"))
+            await raj(functions.channels.JoinChannelRequest(channel="@AgoraEmpire"))
+            await raj(functions.channels.JoinChannelRequest(channel="@Agora_Robots"))
             await raj(functions.channels.JoinChannelRequest(channel=f"@{grp}"))
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
@@ -722,8 +722,8 @@ async def start_yukki():
             print("Booting Up The Client 1")
             await put.start()
             botme = await put.get_me()
-            await put(functions.channels.JoinChannelRequest(channel="@LegendBot_OP"))
-            await put(functions.channels.JoinChannelRequest(channel="@LegendBot_AI"))
+            await put(functions.channels.JoinChannelRequest(channel="@AgoraEmpire"))
+            await put(functions.channels.JoinChannelRequest(channel="@Agora_Robots"))
             await put(functions.channels.JoinChannelRequest(channel=f"@{grp}"))
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
@@ -794,7 +794,7 @@ async def _(e):
             event = await e.reply(text, parse_mode=None, link_preview=None)
             try:
                 await e.client(functions.channels.JoinChannelRequest(channel=bc))
-                await event.edit("𝐉𝐎𝐢𝐍 𝐇𝐎𝐆𝐘𝐀 𝐕𝐀𝐈 𝐀𝐁 𝐁𝐓𝐀 𝐊𝐈𝐒𝐊𝐈 𝐌𝐀𝐑𝐔😏🔥")
+                await event.edit("ᴊᴏɪɴ ʜᴏɢᴀʏᴀ ʙʜᴀɪ ᴀʙ ʙᴀᴛᴀᴏ ᴋɪsᴋɪ ɢᴀᴀɴᴅ ᴍᴀᴀʀᴜ😏🔥")
             except Exception as e:
                 await event.edit(str(e))
         else:
@@ -875,7 +875,7 @@ async def _(e):
         if len(e.text) == 7:
             bc = yukki[0]
             bc = int(bc)
-            text = "RDX BOT Leaving....."
+            text = "ᴀɢᴏʀᴀ ʙᴏᴛ ʟᴇᴀᴠɪɴɢ....."
             event = await e.reply(text, parse_mode=None, link_preview=None)
             try:
                 await event.client(LeaveChannelRequest(bc))
@@ -1313,11 +1313,11 @@ async def _(e):
 async def ping(e):
     if e.sender_id in SMEX_USERS:
         start = datetime.now()
-        text = "Pong!"
+        text = "ᴏʜ ʏᴇᴀʜ ʙᴀʙʏ 👅!"
         event = await e.reply(text, parse_mode=None, link_preview=None)
         end = datetime.now()
         ms = (end - start).microseconds / 1000
-        await event.edit(f"⚡[ᴘᴏɴɢ] ⚡!\n`{ms}` 𝗺𝘀")
+        await event.edit(f"⚡[ᴏʜ ʏᴇᴀʜ ʙᴀʙʏ 👅] ⚡!\n`{ms}` 𝗺𝘀")
 
 
 @idk.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
@@ -1347,7 +1347,7 @@ async def ping(e):
 @put.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
 async def restart(e):
     if e.sender_id in SMEX_USERS:
-        text = "𝙍𝙚𝙨𝙩𝙖𝙧𝙩𝙚𝙙\n\nPlease wait till it reboots..."
+        text = "𝙍𝙚𝙨𝙩𝙖𝙧𝙩𝙚𝙙\n\nPlease wait agora idspam till it reboots..."
         await e.reply(text, parse_mode=None, link_preview=None)
         try:
             await idk.disconnect()
@@ -1425,11 +1425,11 @@ async def help(e):
 
 
 text = """
-CONGRATS🥳🥳🥳 YOUR FASTEST, SMOOTHEST AND POWERFUL LEGENDSPAMBOT DEPLOYED SUCCESSFULLY """
+CONGRATS🥳🥳🥳 YOUR FASTEST, SMOOTHEST AND POWERFUL AGORA IDSPAM DEPLOYED SUCCESSFULLY """
 
 print(text)
 print("")
-print("🙏🔥🔥YOUR! LEGEND SPAM BOT STARTED SUCCESFULLY.🔥🔥🙏")
+print("🙏🔥🔥YOUR! AGORA IDSPAM STARTED SUCCESFULLY.🔥🔥🙏")
 if len(sys.argv) not in (1, 3, 4):
     try:
         idk.disconnect()
